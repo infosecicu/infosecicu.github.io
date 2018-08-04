@@ -15,6 +15,7 @@ html, body {
   padding: 0;
   font-size: 1em;
   color: #00bebe;
+  margin-top: -1rem;
 }
 
 li {
