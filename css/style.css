@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Rajdhani:300);
 html, body {
-  overflow: hidden;
+  overflow-x: hidden;
   background: url(https://aaronchuo.cc/assets/images/ironwall.jpg) #000 top center no-repeat;
   background-size: 100% 100%;
   width: 100%;
