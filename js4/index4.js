@@ -5,7 +5,17 @@ var txt = [
 
   "$cd..",
   "cd recon",
-  "$sudo python Rec0n.py -d infosec.icu",
+  "$sudo python Rec0n.py -d infosec.icu --loopscan",
+  "...",
+  "...",
+  "Scanning target.....",
+  "...",
+  "Gathering results...",
+  "robots.txt EXISTS! [SEVERITY = HIGH]",
+  "SSL EXISTS! [INFO: BREAKS THEMES AND IMG LINKS]",
+  "right-click NOT DISABLED! [SEVERITY = HIGH]",
+  "#",
+  "================================================",
   "Bruteforcing subdomains.... This may take a moment..",
   "7% done..",
   "23% done..",
@@ -84,6 +94,11 @@ var txt = [
   "All Target are: [ERROR]",
   "#",
   "================================================",
+  "output saved to /home/JamesStevens/bday_1983_Dec18/Address_14ArchyLane_Cambridge_UK/scan.txt",
+  "#",
+  "================================================",
+
+
 
 
 
@@ -103,7 +118,7 @@ function updateScreen() {
     p.textContent = e;
     docfrag.appendChild(p);
   });
-  
+
   while (c.firstChild) {
     c.removeChild(c.firstChild);
   }
