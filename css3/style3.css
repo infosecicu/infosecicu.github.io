@@ -14,8 +14,8 @@ body {
   display: inline-block;
   position: relative;
   text-align: center;
-  color: #00c7ec;
-  border: 1px solid #00c7ec;
+  color: #00bebe;
+  border: 1px solid #00bebe;
   border-radius: 5px;
   line-height: 2em;
   padding-left: 3em;
@@ -28,7 +28,7 @@ body {
 .button:hover {
   color: white;
   box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
-  background-color: #00c7ec;
+  background-color: #00bebe;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
