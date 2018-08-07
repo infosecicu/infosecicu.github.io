@@ -14,9 +14,9 @@ var txt = [
   "87% done..",
   "99% done",
   "100% done",
-  "SUBDOMAINS FOUND! downloads.infosec.icu",
-  "SUBDOMAINS FOUND! leaks.infosec.icu",
-  "SUBDOMAINS FOUND! secr3t.infosec.icu",
+  "SUBDOMAIN FOUND! downloads.infosec.icu",
+  "SUBDOMAIN FOUND! leaks.infosec.icu",
+  "SUBDOMAIN FOUND! secr3t.infosec.icu",
   "#",
   "================================================",
   "Scanning ports on INFOSEC.ICU...",
@@ -70,9 +70,9 @@ var txt = [
   "'LAYER4 = MAXIMUM_OUTPUT'",
   "'LAYER7 = MAXIMUM_OUTPUT'",
   "...",
-  "Sending 4KBS to infosec.icu:25 PER SECOND [LAYER4]",
-  "Sending 2 REQUESTS to infosec.icu/xmlrpc.php PER SECOND [LAYER7]",
-  "Sending 2 REQUESTS to twitter.com/phathacks PER SECOND [LAYER7]",
+  "Sending 4KBS PER SECOND to infosec.icu:25 [LAYER4]",
+  "Sending 2 REQUESTS PER SECOND to infosec.icu/xmlrpc.php [LAYER7]",
+  "Sending 2 REQUESTS PER SECOND to twitter.com/phathacks [LAYER7]",
   "waiting...",
   "waiting...",
   "waiting...",
@@ -95,15 +95,15 @@ var txt = [
 var docfrag = document.createDocumentFragment();
 
 function updateScreen() {
-  //Shuffle the "txt" array
+
   txt.push(txt.shift());
-  //Rebuild document fragment
+
   txt.forEach(function(e) {
     var p = document.createElement("p");
     p.textContent = e;
     docfrag.appendChild(p);
   });
-  //Clear DOM body
+  
   while (c.firstChild) {
     c.removeChild(c.firstChild);
   }
