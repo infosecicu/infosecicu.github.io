@@ -1,6 +1,3 @@
-/* If I use JavaScript, I'll tell you */
+/* Nothing to see here */
 /*
-Another Scifi UI:
-Radio-based Tab - https://codepen.io/aaronchuo/pen/AcvkI
-Web Form - https://codepen.io/aaronchuo/pen/adErn
 */
