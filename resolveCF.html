@@ -71,7 +71,8 @@ Keep in mind that a website may use various different IPs and not a single stati
 <p>Let's choose a website from the Internet by complete randomization.</p>
 	<p><u><span style="color:white">Terminal:</span></u></p>
 	<p>We could just test some common subdomains via a terminal:</p>
-	<code>└──╼ $ping donaldjtrump.com
+	<code>
+└──╼ $ping donaldjtrump.com
 PING donaldjtrump.com (104.16.38.178) 56(84) bytes of data.
 64 bytes from 104.16.38.178: icmp_seq=1 ttl=60 time=190 ms
 └──╼ $ping cpanel.donaldjtrump.com
@@ -137,7 +138,7 @@ domain (TEXT): donaldjtrump.com
 </code>
 <p><u><span style="color:white">Websploit</span></u></p>
 <code>
-	$websploit
+$websploit
 wsf > use web/cloudflare_resolver
 wsf:CloudFlare Resolver > set TARGET donaldjtrump.com
 wsf:CloudFlare Resolver > run
@@ -161,7 +162,7 @@ wsf:CloudFlare Resolver > run
 		<p><u><span style="color:white">dnsrecon</span>.</u></p>
 		<p>Simply give dnsrecon the target domain:</p>
 		<code>
-			└──╼ $dnsrecon -d donaldjtrump.com
+└──╼ $dnsrecon -d donaldjtrump.com
 [*] Performing General Enumeration of Domain: donaldjtrump.com
 [-] DNSSEC is not configured for donaldjtrump.com
 [*] 	 SOA adel.ns.cloudflare.com 173.245.58.55

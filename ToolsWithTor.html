@@ -64,23 +64,23 @@
 
 			<div class="blog">
 				<br>
-				<img src="https://3bonlp1aiidtbao4s10xacvn-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Tor-Vulnerability-Exposes-Real-IP-Addresses-of-Tor-Browser-Users.jpg" alt="cloudflare" style="width:750px;height:250px";>
+				<img src="https://3bonlp1aiidtbao4s10xacvn-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Tor-Vulnerability-Exposes-Real-IP-Addresses-of-Tor-Browser-Users.jpg" alt="cloudflare" style="width:750px;height:250px"></img>
 <p>Using <a href="https://www.torproject.org/" target="_blank">Tor</a> as a proxy when using pentesting tools is an easy way to improve anonymity. <br>
 From the terminal, we'll install the proxy and start the serivce</p>
 <code>
-	sudo apt-get install tor
-	sudo serivce tor start
+sudo apt-get install tor
+sudo serivce tor start
 </code>
 <p>Let's check that Tor proxy is running.</p>
 <code>
-	sudo netstat -plnt
-	Proto Recv-Q Send-Q Local Address
-	tcp        0      0 127.0.0.1:9050
+sudo netstat -plnt
+Proto Recv-Q Send-Q Local Address
+tcp        0      0 127.0.0.1:9050
 </code>
 <p>Tor proxy is running on port <span>5050</span>.
 The proxy can now be specified when using terminal tools. For example:</p>
 <code>
-	sudo wpscan --url example.com --proxy=socks5://127.0.0.1:9050
+sudo wpscan --url example.com --proxy=socks5://127.0.0.1:9050
 </code>
 <p>Graphical tools tend to have an option to add a proxy</p>
 <img src="https://i.imgur.com/p6RkF0u.png" alt="dirbuster"></img>
