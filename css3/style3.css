@@ -17,9 +17,9 @@ body {
   color: #00bebe;
   border: 1px solid #00bebe;
   border-radius: 5px;
-  line-height: 2em;
-  padding-left: 3em;
-  padding-right: 3em;
+  line-height: 1.5em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
   box-shadow: 0 0 0 0 transparent;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
