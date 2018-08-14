@@ -38,7 +38,7 @@ var txt = [
   "FOUND! /xmlrpc.php",
   "#",
   "================================================",
-  "Searching for hidden unlisted files on $TARGET...",
+  "Searching for hidden files on infosec.icu ...",
   "...",
   "...",
   "FILE FOUND! /private/MyFBIprofile.zip",
