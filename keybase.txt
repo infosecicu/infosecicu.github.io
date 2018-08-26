@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cyberphunk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://infosec.icu
+  * I am cyberphunk (https://keybase.io/cyberphunk) on keybase.
+  * I have a public key ASCDREh_0gUGcj5G1Iv412LMGJYFOXmew7vocKhji_N5awo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120aa04bfd22671cd4ab2231d03fbdc1d5a4a29a5cfccd76fe815fe62aaa7b0c81a0a",
+      "host": "keybase.io",
+      "kid": "01208344487fd20506723e46d48bf8d762cc18960539799ec3bbe870a8638bf3796b0a",
+      "uid": "742c53c053fea7ab915163b762171d19",
+      "username": "cyberphunk"
+    },
+    "merkle_root": {
+      "ctime": 1535279940,
+      "hash": "49746b69d01efdeaed822b99d2e16846e9f60bd726aca50ddd608bd459acbb6b2e08859bf58a781b5c95e9de7c682b7587b4eba0aa073f245ba99d66dfdafda9",
+      "hash_meta": "5c134f49f518d27a23615a8de6099a99f990375086260d39d22d76369d20a882",
+      "seqno": 3517302
+    },
+    "service": {
+      "entropy": "jO9G8ViQMs4QWE03SEbdD3dk",
+      "hostname": "infosec.icu",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1535279979,
+  "expire_in": 504576000,
+  "prev": "67f12c8f4a38a240ace7a36d770952ecef5009cc1b06069d8a2436f1c17ab46a",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgg0RIf9IFBnI+RtSL+NdizBiWBTl5nsO76HCoY4vzeWsKp3BheWxvYWTESpcCCcQgZ/Esj0o4okCs56NtdwlS7O9QCcwbBgadiiQ28cF6tGrEICBEqPih62E9GHJc28XB8M6FPZxhpDqKst7rFbt8/koZAgHCo3NpZ8RAmjjDAk9fr39osV8iBmVTkrrDuyNRXQyicgdcd2GMxAlD5hcSiPSCrL//VXgYcbrni6x9tbHIpbf4AGG2tYGKAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEOu5uGx2kIuJJBpsnR+jpykStk/tVQEPvs7Wc9J2KnVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cyberphunk
+
+==================================================================
